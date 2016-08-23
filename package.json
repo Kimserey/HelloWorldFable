@@ -1,0 +1,10 @@
+{
+  "name": "hello-world-fable",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "kimserey",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+  }
+}
