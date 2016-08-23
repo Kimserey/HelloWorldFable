@@ -3,8 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "kimserey",
+   "description": "A Hello world example using Fable",
   "repository": {
     "type": "git",
     "url": "https://github.com/Kimserey/HelloWorldFable.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "core-js": "*",
+    "requirejs": "*",
+    "fable-core": "*"
   }
 }
