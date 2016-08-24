@@ -6,4 +6,4 @@ open Fable.Import
 open Fable.Import.Browser
 
 let div =  document.getElementById("test")
-div.innerText <- "Hello world from F# with Fable!"
+div.innerText <- "Hello world from F# with Fable!!!"
