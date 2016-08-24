@@ -1,23 +1,23 @@
 <!doctype html>
 <html>
 <head>
-  <!--<script src="http://code.jquery.com/jquery-1.8.0.js"></script>-->
+  <script src="http://code.jquery.com/jquery-1.8.0.js"></script>
   <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
-
-  <script src="node_modules/core-js/client/core.min.js"></script>
-  <script src="node_modules/requirejs/require.js"></script>
-  
 </head>
 <body>
   <div id="test"></div>
+
+  <script src="node_modules/core-js/client/core.min.js"></script>
+  <script src="node_modules/requirejs/require.js"></script>
   <script>
     requirejs.config({
         baseUrl: 'app',
         paths: {
-            'fable-core': 'node_modules/fable-core/fable-core.min'
+            // relative to base url
+            'fable-core': '../node_modules/fable-core/fable-core.min'
         }
     });
-
+    
     requirejs(["app"]);
   </script>
 </body>

@@ -13,5 +13,10 @@
     "core-js": "*",
     "requirejs": "*",
     "fable-core": "*"
+  },
+  "scripts": {
+  	"build": "fable",
+    "watch": "fable -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
