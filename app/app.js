@@ -17,5 +17,5 @@
     value: true
   });
   var div = exports.div = document.getElementById("test");
-  div.innerText = "Hello world!";
+  div.innerText = "Hello world from F# with Fable!";
 });
